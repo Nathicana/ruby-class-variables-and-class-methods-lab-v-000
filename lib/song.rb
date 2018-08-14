@@ -28,12 +28,12 @@ end
 def self.genre_count
 genre_count = []
 @@genres.collect do |genre, name]
-  genre_count << genre, name 
+  genre_count << genre, name
 
   genre_count
 
-  
-end
 
+end
+end
 
 end
