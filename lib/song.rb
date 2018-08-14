@@ -24,7 +24,7 @@ end
 
 
 def self.genres
-  @@genres 
+  @@genres.unique
 
 end
 
