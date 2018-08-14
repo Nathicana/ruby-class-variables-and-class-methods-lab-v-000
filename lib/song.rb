@@ -26,11 +26,11 @@ def self.genres
 end
 
 def self.genre_count
-genre_count = []
-@@genres.collect do |genre, name|
-  genre_count << genre, name
 
-  genre_count
+  @@genres.select {|genre, name| name if genre.uniq}
+end
+
+
 
 
 end
