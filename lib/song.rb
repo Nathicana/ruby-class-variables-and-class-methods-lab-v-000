@@ -26,12 +26,13 @@ def self.genres
 end
 
 def self.genre_count
-new_hash = []
+genre_count = []
+@@genres.collect do |genre, name]
+  genre_count << genre, name 
 
-  new_hash[@@genres] ||= []
-  new_hash[@@genres] << name
+  genre_count
 
-  new_hash
+  
 end
 
 
