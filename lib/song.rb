@@ -13,7 +13,6 @@ def initialize(name, artist, genre)
   @@count += 1
   end
 
-
 def self.count
   @@count
 end
@@ -22,10 +21,16 @@ def self.artists
   @@artists.uniq
 end
 
-
 def self.genres
   @@genres.uniq
-
 end
+
+def self.genre_count(genres, songs)
+  
+  
+  new_hash[genres] ||= []
+  new_hash[genres] << songs
+    
+    
 
 end
