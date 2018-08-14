@@ -29,7 +29,7 @@ def self.genre_count
  Hash[*@@genres.group_by{ |name| name }.flat_map{ |genre, name| [genre, name.size] }]
 end
 
-def self.artist_count 
+def self.artist_count
   Hash[*@@artists.group_by{ |name| name }.flat_map{ |artist, name| [artist, name.size] }]
 end 
 
