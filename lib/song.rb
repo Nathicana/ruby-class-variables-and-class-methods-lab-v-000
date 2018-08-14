@@ -27,7 +27,7 @@ end
 
 def self.genre_count
 
-  @@genres.select {|genre, name| name if genre.exists}
+  @@genres.select {|genre, name|}
 end
 
 
