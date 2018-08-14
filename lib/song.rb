@@ -28,8 +28,8 @@ end
 def self.genre_count
 
 
-  new_hash[genres] ||= []
-  new_hash[genres] << songs
+  new_hash[@@genres] ||= []
+  new_hash[@@genres] << songs
 end
 
 
