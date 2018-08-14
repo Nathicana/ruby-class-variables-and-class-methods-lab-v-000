@@ -26,10 +26,12 @@ def self.genres
 end
 
 def self.genre_count
-
+new_hash = []
 
   new_hash[@@genres] ||= []
   new_hash[@@genres] << name
+
+  new_hash
 end
 
 
