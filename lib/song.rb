@@ -25,7 +25,7 @@ def self.genres
   @@genres.uniq
 end
 
-def self.genre_count(genres, songs)
+def self.genre_count
 
 
   new_hash[genres] ||= []
