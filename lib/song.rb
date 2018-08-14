@@ -24,10 +24,8 @@ end
 
 
 def self.genres
-  if genre.uniq
-    return
-  @@genres
-end
+  @@genres 
+  
 end
 
 end
