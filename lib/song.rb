@@ -27,7 +27,7 @@ end
 
 def self.genre_count
 
-  @@genres.select {|genre, name.count| }
+  Hash[*@@genres.group_by{ |name| namr }.flat_map{ |genre, name| [genre, name.size] }]
    
 end
 
