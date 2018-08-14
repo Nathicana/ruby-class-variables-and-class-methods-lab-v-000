@@ -28,6 +28,7 @@ end
 def self.genre_count
 
   @@genres.select {|genre, name|}
+   return @@genres
 end
 
 
